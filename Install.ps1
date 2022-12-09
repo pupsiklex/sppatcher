@@ -159,7 +159,7 @@ function Format-LanguageCode {
 function CallLang($clg) {
 
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    $urlLang = "https://raw.githubusercontent.com/SpotX-CLI/SpotX-Win/main/scripts/installer-lang/en.ps1"
+    $urlLang = "https://raw.githubusercontent.com/pupsiklex/sppatcher/main/scripts/installer-lang/en.ps1"
     $ProgressPreference = 'SilentlyContinue'
     
     try {
